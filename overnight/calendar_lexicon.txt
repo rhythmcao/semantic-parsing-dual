@@ -1,0 +1,13 @@
+meeting :- NP : en.meeting
+meetings :- NP : en.meeting
+weekly standup :- NP : en.meeting.weekly_standup
+weekly stand up :- NP : en.meeting.weekly_standup
+weekly roundup :- NP : en.meeting.weekly_standup
+weekly startup :- NP : en.meeting.weekly_standup
+week startup :- NP : en.meeting.weekly_standup
+annual review :- NP : en.meeting.annual_review
+person :- NP : en.person
+alice :- NP : en.person.alice
+bob :- NP : en.person.bob
+greenberg cafe :- NP : en.location.greenberg_cafe
+central office :- NP : en.location.central_office

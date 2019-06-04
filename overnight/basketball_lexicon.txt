@@ -1,0 +1,17 @@
+kobe bryant :- NP : en.player.kobe_bryant
+kobe :- NP : en.player.kobe_bryant
+kobe bryants :- NP : en.player.kobe_bryant
+kob bryant :- NP : en.player.kobe_bryant
+kobe bryan :- NP : en.player.kobe_bryant
+lebron james :- NP : en.player.lebron_james
+la laker :- NP : en.team.lakers
+la lakers :- NP : en.team.lakers
+los angeles lakers :- NP : en.team.lakers
+lakers :- NP : en.team.lakers
+laker :- NP : en.team.lakers
+cavaliers :- NP : en.team.cavaliers
+cleveland cavaliers :- NP : en.team.cavaliers
+point guards :- NP : en.position.point_guard
+point guard :- NP : en.position.point_guard
+forward :- NP : en.position.forward
+forwards :- NP : en.position.forward

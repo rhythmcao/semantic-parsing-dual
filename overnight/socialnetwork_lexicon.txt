@@ -1,0 +1,33 @@
+person :- NP : en.person
+persons :- NP : en.person
+alice :- NP : en.person.alice
+bob :- NP : en.person.bob
+alices :- NP : en.person.alice
+bobs :- NP : en.person.bob
+male :- NP : en.gender.male
+males :- NP : en.gender.male
+female :- NP : en.gender.female
+females :- NP : en.gender.female
+single :- NP : en.relationship_status.single
+singles :- NP : en.relationship_status.single
+singlestatus :- NP : en.relationship_status.single
+married :- NP : en.relationship_status.married
+city :- NP : en.city
+cities :- NP : en.city
+citys :- NP : en.city
+new york :- NP : en.city.new_york
+new yorks :- NP : en.city.new_york
+newyork :- NP : en.city.new_york
+beijing :- NP : en.city.beijing
+cm :- NP : en.cm
+brown university :- NP : en.university.brown
+ucla :- NP : en.university.ucla
+ucla university :- NP : en.university.ucla
+computer science :- NP : en.field.computer_science
+mckinsey :- NP : en.company.mckinsey
+mckinseys :- NP : en.company.mckinsey
+google :- NP : en.company.google
+software engineer :- NP : en.job_title.software_engineer
+software engineers :- NP : en.job_title.software_engineer
+program manager :- NP : en.job_title.program_manager
+program managers :- NP : en.job_title.program_manager

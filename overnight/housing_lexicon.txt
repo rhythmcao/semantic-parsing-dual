@@ -1,0 +1,18 @@
+123 sesame street :- NP : en.housing_unit.123_sesame_street
+123 sesame st :- NP : en.housing_unit.123_sesame_street
+900 mission avenue :- NP : en.housing_unit.900_mission_ave
+900 mission ave :- NP : en.housing_unit.900_mission_ave
+dollar :- NP : en.dollar
+dollars :- NP : en.dollar
+square :- NP : en.square_feet
+square feet :- NP : en.square_feet
+square foot :- NP : en.square_feet
+midtown west :- NP : en.neighborhood.midtown_west
+midtown east :- NP : en.neighborhood.midtown_west
+west midtown :- NP : en.neighborhood.midtown_west
+chelsea :- NP : en.neighborhood.chelsea
+apartment :- NP : en.housing.apartment
+aprtment :- NP : en.housing.apartment
+apartments :- NP : en.housing.apartment
+condo :- NP : en.housing.condo
+condos :- NP : en.housing.condo

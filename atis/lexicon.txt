@@ -1,0 +1,78 @@
+ci0 :- NP : ci0
+ci1 :- NP : ci1
+ci2 :- NP : ci2
+ap0 :- NP : ap0
+ap1 :- NP : ap1
+da0 :- NP : da0
+da1 :- NP : da1
+da2 :- NP : da2
+da3 :- NP : da3
+da4 :- NP : da4
+al0 :- NP : al0
+al1 :- NP : al1
+al2 :- NP : al2
+ti0 :- NP : ti0
+ti1 :- NP : ti1
+dn0 :- NP : dn0
+dn1 :- NP : dn1
+mn0 :- NP : mn0
+mn1 :- NP : mn1
+fn0 :- NP : fn0
+fn1 :- NP : fn1
+ac0 :- NP : ac0
+fb0 :- NP : fb0
+fb1 :- NP : fb1
+yr0 :- NP : yr0
+st0 :- NP : st0
+morn :- NP : morning:pd
+am :- NP : morning:pd
+afternoon :- NP : afternoon:pd
+even :- NP : evening:pd
+earli :- NP : early:pd
+late :- NP : late:pd
+night :- NP : late:pd
+late night :- NP : late_night:pd
+late even :- NP : late_evening:pd
+late in the even :- NP : late_evening:pd
+pm :- NP : pm:pd
+day time :- NP : daytime:pd
+mealtim :- NP : mealtime:pd
+breakfast :- NP : breakfast:me
+dinner :- NP : dinner:me
+lunch :- NP : lunch:me
+snack :- NP : snack:me
+dure breakfast :- NP : breakfast:pd
+ground transport :- NP : ground_transport
+rental car :- NP : rental_car
+rental a car :- NP : rental_car
+car rental :- NP : rental_car
+car :- NP : rental_car
+limousin :- NP : limousine
+limo :- NP : limousine
+air taxi oper :- NP : air_taxi_operation
+first class :- NP : first:cl
+coach :- NP : coach:cl
+busi :- NP : business:cl
+busi class :- NP : business:cl
+thrift :- NP : thrift:cl
+thrift economi :- NP : thrift:cl
+economi thrift :- NP : thrift:cl
+daili :- NP : daily
+economi :- NP : economy
+cheap :- NP : economy
+one way :- NP : oneway
+oneway :- NP : oneway
+round trip :- NP : round_trip
+no stopov :- NP : nonstop
+direct :- NP : nonstop
+connect :- NP : connecting
+boe :- NP : boeing:mf
+one :- NP : 1:i
+two :- NP : 2:i
+3 :- NP : 3:i
+9 hour :- NP : 9:hr
+minimum connect time :- NP : minimum_connection_time
+day after tomorrow :- NP : day_after_tomorrow
+distanc :- NP : miles_distant
+discount :- NP : discounted
+time zone :- NP : time_zone_code

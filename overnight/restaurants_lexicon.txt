@@ -1,0 +1,17 @@
+restaurant :- NP : en.restaurant
+restaurants :- NP : en.restaurant
+thai cafe :- NP : en.restaurant.thai_cafe
+pizzeria juno :- NP : en.restaurant.pizzeria_juno
+pizzeria :- NP : en.restaurant.pizzeria_juno
+stars :- NP : en.star
+star :- NP : en.star
+dollar sign :- NP : en.dollar_sign
+dollar signs :- NP : en.dollar_sign
+reviews :- NP : en.review
+midtown west :- NP : en.neighborhood.midtown_west
+west midtown :- NP : en.neighborhood.midtown_west
+chelsea :- NP : en.neighborhood.chelsea
+thai :- NP : en.cuisine.thai
+italian :- NP : en.cuisine.italian
+lunch :- NP : en.food.lunch
+dinner :- NP : en.food.dinner

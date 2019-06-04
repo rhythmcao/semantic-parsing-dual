@@ -1,0 +1,13 @@
+recipe :- NP : en.recipe
+recipes :- NP : en.recipe
+rice pudding :- NP : en.recipe.rice_pudding
+rice puddings :- NP : en.recipe.rice_pudding
+quiche :- NP : en.recipe.quiche
+quice :- NP : en.recipe.quiche
+ingredient :- NP : en.ingredient
+ingredients :- NP : en.ingredient
+milk :- NP : en.ingredient.milk
+spinach :- NP : en.ingredient.spinach
+lunch :- NP : en.meal.lunch
+dinner :- NP : en.meal.dinner
+supper :- NP : en.meal.dinner

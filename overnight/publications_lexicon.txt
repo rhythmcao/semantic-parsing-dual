@@ -1,0 +1,10 @@
+article :- NP : en.article
+articles :- NP : en.article
+multivariate data analysis :- NP : en.article.multivariate_data_analysis
+person :- NP : en.person
+persons :- NP : en.person
+efron :- NP : en.person.efron
+efrons :- NP : en.person.efron
+lakoff :- NP : en.person.lakoff
+annals of statistics :- NP : en.venue.annals_of_statistics
+computational linguistics :- NP : en.venue.computational_linguistics
