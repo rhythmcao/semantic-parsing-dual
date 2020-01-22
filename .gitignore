@@ -1,0 +1,17 @@
+exp
+tmp
+log
+lib
+state
+evaluator
+data/.cache
+data/*/*_vocab.*
+*/*/*/__pycache__
+*/*/__pycache__
+*/__pycache__
+*/*/*/*.pyc
+*/*/*.pyc
+*/*.pyc
+module-classes.txt
+.ipynb_checkpoints
+*.ipynb
