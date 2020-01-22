@@ -99,7 +99,7 @@ Use pretrained models of Semantic Parsing and Question Generation to generate ps
 
     ./run/run_pseudo_method.sh dataset_name [attn|attnptr] labeled
 
->Attention: in the script `run/run_pseudo_method.sh`, `read_sp_model_path` and `read_qg_model_path` are paths to the pretrained models(semantic parsing and question generation). `labeled` and `seed` should be kept the same for both the pretraining phases and pseudo method. By default, model type (attn/attnptr) is the same for both semantic parsing and question generation models.
+**Attention:** in the script `run/run_pseudo_method.sh`, `read_sp_model_path` and `read_qg_model_path` are paths to the pretrained models(semantic parsing and question generation). `labeled` and `seed` should be kept the same for both the pretraining phases and pseudo method. By default, model type (attn/attnptr) is the same for both semantic parsing and question generation models.
 
 ----
 
@@ -109,4 +109,4 @@ Use pretrained models of semantic parsing, question generation and language mode
 
     ./run/run_dual_learning.sh dataset_name [attn|attnptr] labeled
 
->Attention: in the script `run/run_dual_learning.sh`, `read_sp_model_path`, `read_qg_model_path`, `read_qlm_path` and `read_lflm_path` are paths to the pretrained models(semantic parsing, question generation, question language model and logical form language model). `labeled` and `seed` should be kept the same for both the pretraining phases and dual learning framework. By default, model type (attn/attnptr) is the same for both semantic parsing and question generation models.
+**Attention:** in the script `run/run_dual_learning.sh`, `read_sp_model_path`, `read_qg_model_path`, `read_qlm_path` and `read_lflm_path` are paths to the pretrained models(semantic parsing, question generation, question language model and logical form language model). `labeled` and `seed` should be kept the same for both the pretraining phases and dual learning framework. By default, model type (attn/attnptr) is the same for both semantic parsing and question generation models.
