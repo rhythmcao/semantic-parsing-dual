@@ -1,6 +1,6 @@
 # Semantic Parsing with Dual Learning
 
-Source code and data for ACL 2019 Long Paper _Semantic Parsing with Dual Learning_(https://www.aclweb.org/anthology/P19-1007.pdf).
+Source code and data for ACL 2019 Long Paper [_Semantic Parsing with Dual Learning_](https://www.aclweb.org/anthology/P19-1007.pdf).
 
 ----
 
