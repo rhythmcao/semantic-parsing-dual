@@ -34,16 +34,16 @@ Experiments are conducted on two semantic parsing dataset **ATIS** and **OVERNIG
 
 Categories:
 
-- *train.tsv*: training dataset, 4433 samples.
-- *dev.tsv*: validation dataset, 491 samples.
-- *test.tsv*: test dataset, 448 samples.
-- *extra.tsv*: synthesized logical forms (Lambda Calculus), 3797 samples.
-- *lexicon.txt*: Each line specifies a one-to-one mapping between a natural language noun phrase and its corresponding entity representation in knowledge base, such as pair `(first class, fist:cl)`.
+- *atis_train.tsv*: training dataset, 4433 samples.
+- *atis_dev.tsv*: validation dataset, 491 samples.
+- *atis_test.tsv*: test dataset, 448 samples.
+- *atis_extra.tsv*: synthesized logical forms (Lambda Calculus), 3797 samples.
+- *atis_lexicon.txt*: each line specifies a one-to-one mapping between a natural language noun phrase and its corresponding entity representation in knowledge base, such as pair `(first class, fist:cl)`.
+- *atis_ontology.txt*: specify all the entity types, unary, and binary predicates used in the logical form.
 
-**Attention**: *train.tsv*, *dev.tsv* and *test.tsv* are preprocessed version provided by [Dong and Lapata (2018)](https://arxiv.org/pdf/1601.01280.pdf), where natural language queries are lowercased and stemmed with NLTK, and entity mentions are replaced by numbered markers. For example:
+**Attention**: *atis_train.tsv*, *aits_dev.tsv* and *atis_test.tsv* are preprocessed version provided by [Dong and Lapata (2018)](https://arxiv.org/pdf/1601.01280.pdf), where natural language queries are lowercased and stemmed with NLTK, and entity mentions are replaced by numbered markers. For example:
 
     flight from ci0 to ci1	( lambda $0 e ( and ( flight $0 ) ( from $0 ci0 ) ( to $0 ci1 ) ) )
-
 
 ----
 
