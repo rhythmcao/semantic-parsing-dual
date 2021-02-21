@@ -51,7 +51,7 @@ Experiments are conducted on two semantic parsing dataset **ATIS** and **OVERNIG
 
 ### **ATIS**
 
-Categories:
+Files:
 
 - *atis_train.tsv*: training dataset, 4433 samples.
 - *atis_dev.tsv*: validation dataset, 491 samples.
