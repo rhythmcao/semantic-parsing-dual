@@ -1,7 +1,26 @@
 # Semantic Parsing with Dual Learning
 
-Source code and data for ACL 2019 Long Paper [_Semantic Parsing with Dual Learning_](https://www.aclweb.org/anthology/P19-1007.pdf).
+This repository contains source code and data for the ACL 2019 Long Paper ["Semantic Parsing with Dual Learning"](https://www.aclweb.org/anthology/P19-1007.pdf).
 
+If you use our framework in your work, please cite it as follows:
+
+        @inproceedings{cao-etal-2019-semantic,
+            title = "Semantic Parsing with Dual Learning",
+            author = "Cao, Ruisheng  and
+              Zhu, Su  and
+              Liu, Chen  and
+              Li, Jieyu  and
+              Yu, Kai",
+            booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+            month = jul,
+            year = "2019",
+            address = "Florence, Italy",
+            publisher = "Association for Computational Linguistics",
+            url = "https://www.aclweb.org/anthology/P19-1007",
+            doi = "10.18653/v1/P19-1007",
+            pages = "51--64"
+        }
+   
 ----
 
 ## Setup
